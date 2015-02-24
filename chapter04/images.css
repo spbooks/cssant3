@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 2em;
+  font: 1em Arial, Helvetica, sans-serif;
+}
+
+ul#nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav a:link, #nav a:visited {
+  display: block;
+  width: 150px;
+  padding: 10px 0 16px 32px;
+  font: bold 80% Arial, Helvetica, sans-serif;
+  color: #FF9900;
+  background: url("peppers.gif") top left no-repeat;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-position: 0 -69px;
+  color: #B51032;
+}
+
+#nav a:active {
+  background-position: 0 -138px;
+  color: #006E01;
+}

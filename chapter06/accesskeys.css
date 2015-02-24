@@ -1,0 +1,38 @@
+h1 {
+  font: 1.2em Arial, Helvetica, sans-serif;
+}
+input.txt {
+  color: #00008B;
+  background-color: #E3F2F7;
+  border: 1px inset #00008B;
+  width: 200px;
+}
+input.btn {
+  color: #00008B;
+  background-color: #ADD8E6;
+  border: 1px outset #00008B;
+}
+form div {
+  clear: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5em;
+}
+form div label {
+  float: left;
+  width: 40%;
+  font: bold 0.9em Arial, Helvetica, sans-serif;
+}
+fieldset {
+  border: 1px dotted #61B5CF;
+  margin-top: 1.4em;
+  padding: 0.6em;
+}
+legend {
+  font: bold 0.8em Arial, Helvetica, sans-serif;
+  color: #00008B;
+  background-color: #FFFFFF;
+}
+.akey {
+  text-decoration: underline;
+}

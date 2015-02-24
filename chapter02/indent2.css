@@ -1,0 +1,8 @@
+p {
+  font: 0.8em Verdana, Geneva, Arial, Helvetica, sans-serif;
+  line-height: 2.0;
+  text-indent: 20px;
+}
+.indent {
+  text-indent: 20px;
+}

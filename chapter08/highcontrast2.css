@@ -1,0 +1,13 @@
+body, html {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#content h1, #content h2 {
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+#content h2 {
+  border-bottom: 1px dotted #CCCCCC;
+}

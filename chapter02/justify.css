@@ -1,0 +1,9 @@
+h1 {
+	font: 1.6em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 0.2em;
+}
+p {
+	text-align: justify;
+	font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 2.0;
+}

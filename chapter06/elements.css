@@ -1,0 +1,31 @@
+
+
+form {
+	border: 1px dotted #AAAAAA;
+	padding: 0.5em;
+}
+
+form div {
+	margin-bottom: 1em;
+}
+
+input {
+	color: #00008B;
+	background-color: #ADD8E6;
+	border: 1px solid #00008B;
+}
+
+select {
+	width: 100px;
+	color: #00008B;
+	background-color: #ADD8E6;
+	border: 1px solid #00008B;
+}
+
+textarea {
+	width: 200px;
+	height: 40px;
+	color: #00008B;
+	background-color: #ADD8E6;
+	border: 1px solid #00008B;
+}

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  width:100%;
+  float:left;
+  margin-right: -230px;
+  margin-top: 66px;
+}
+#content {
+  margin-right: 220px; 
+}
+#main {
+  margin-left: 220px;
+}
+#side1 {
+  width:200px;
+  float:left;
+  padding: 0 10px 0 10px;
+}
+#side2 {
+  width: 190px;
+  padding: 80px 10px 0 10px;
+  float:right;
+}
+#footer {
+  clear:both;
+  border-top: 10px solid #CECECE;
+}

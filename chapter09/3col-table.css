@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  width:100%;
+}
+#content {
+  display: table;
+  width: 100%;
+}
+#main {
+  display: table-cell;
+}
+#side1 {
+  display: table-cell;
+  width:200px;
+  padding: 0 10px 0 10px;
+}
+#side2 {
+  display: table-cell;
+  width: 190px;
+  padding: 80px 10px 0 10px;
+}
+#footer {
+  border-top: 10px solid #CECECE;
+}

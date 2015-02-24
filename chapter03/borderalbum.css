@@ -1,0 +1,14 @@
+
+#album {
+  margin: 30px;
+  list-style:none;
+}
+
+#album li {
+  float: left;
+  margin-right: 30px;
+}
+
+#album img {
+  border: 1px solid #000000;
+}

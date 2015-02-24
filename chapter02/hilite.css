@@ -1,0 +1,11 @@
+body {
+	font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+	font: 1.6em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 0.2em;
+}
+.hilite {
+	background-color: #FFFFCC;
+	color: #B22222;
+}

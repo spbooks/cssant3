@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(tomato_bg.jpg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+}
+p {
+  font: 80%/1.8em Verdana, Geneva, Arial, Helvetica, sans-serif;
+  padding-top: 0;
+  margin-top: 0;
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+#content {
+  margin: 66px 260px 0px 240px;
+  padding: 10px; 
+}
+#content h1 {
+  text-align: right;
+  padding-right: 20px;
+  font: 150% Georgia, "Times New Roman", Times, serif;
+  color: #901602;
+}
+#side1 {
+  position: absolute;
+  width: 200px;
+  top: 30px;
+  left: 10px;
+  padding: 70px 10px 10px 10px;
+}
+#side2 {
+  position: absolute;
+  width: 220px;
+  top: 30px;
+  right: 10px;
+  padding: 70px 10px 10px 10px;
+  border-left: 1px dotted #CCCCCC;
+  background-image: url(sm-tomato.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+#side2 h3 {
+  font: 110% Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding-bottom: 4px;
+}
+.adbox {
+  padding: 2px 4px 2px 6px;
+  margin: 0 0 10px 0;
+  border: 1px dotted #B1B1B1;
+  background-color: #F4F4F4;
+}
+#side1 h3 {
+  font: 110% Georgia, "Times New Roman", Times, serif;
+  color: #621313;
+  background-color: transparent;
+  margin: 0;
+  padding-bottom: 4px;
+}
+#side1 .txt {
+  width: 184px;
+  background-color: #FCF5F5;
+  border: 1px inset #901602;
+}
+#side1 ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  width: 184px;
+}
+#side1 li {
+  font: 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+  margin-bottom: 0.3em;
+  border-bottom: 1px solid #E7AFAF;
+}
+#side1 a:link, #side1 a:visited {
+  text-decoration: none;
+  color: #901602;
+  background-color: transparent;
+}
+#side1 a:hover {
+  color: #621313;
+}

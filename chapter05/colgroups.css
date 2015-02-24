@@ -1,0 +1,29 @@
+body {
+  font: 0.8em Arial, Helvetica, sans-serif;
+}
+.datatable {
+  border: 1px solid #D6DDE6;
+  border-collapse: collapse;
+  width: 80%;
+}
+.datatable td {
+	border:2px solid #ffffff;
+	padding: 0.3em;
+}
+.datatable th {
+	border:2px solid #ffffff;
+	background-color: #00487D;
+    color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	padding: 0.3em;
+}
+.datatable colgroup.odd {
+  background-color: #80C9FF;
+  color: #000000;
+}
+
+.datatable colgroup.even {
+  background-color: #BFE4FF;
+  color: #000000;
+}

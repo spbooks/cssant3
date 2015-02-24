@@ -1,0 +1,27 @@
+table.formdata {
+	border: 1px solid #5F6F7E;
+	border-collapse: collapse;
+	margin: 1em 0 2em 0;
+}
+table.formdata th {
+	border: 1px solid #5F6F7E;
+	background-color: #E2E2E2;
+	color: #000000;
+	text-align: left;
+	font-weight: normal;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	margin: 0;
+}
+table.formdata td {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #E2E2E2;
+}
+table.formdata input {
+	width: 80px;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	margin: 0;
+	border-width: 0;
+	border-style: none;
+}
+

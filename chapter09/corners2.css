@@ -1,0 +1,18 @@
+.rndbox {
+  background: #C6D9EA;
+  width: 300px;
+  font: 0.8em Verdana, Arial, Helvetica, sans-serif;
+  color: #000033;
+}
+.rndtop {
+  background: url(topright.gif) no-repeat right top;
+}
+.rndbottom {
+  background: url(bottomright.gif) no-repeat right top;
+}
+.rndbottom img {
+  display:block;
+}
+.rndbox p {
+  margin: 0 0.4em 0 0.4em;
+}

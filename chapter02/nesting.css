@@ -1,0 +1,8 @@
+div {
+  padding: 10px;
+  border: 4px solid #ccc;
+  width: 350px;
+}
+div, p, em, a, code {
+  font-size: 130%;
+}

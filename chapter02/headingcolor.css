@@ -1,0 +1,9 @@
+body {
+  font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+  background-color: #ADD8E6;
+  color: #256579;
+  font: 1.5em Verdana, Geneva, Arial, Helvetica, sans-serif;
+  padding: 0.2em;
+}

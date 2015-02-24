@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 2px solid #2A4F6F;
+}
+#header {
+  border-top: 1px solid #778899;
+  border-bottom: 1px dotted #B2BCC6;
+  height: 3em;
+}
+#header .strapline {
+  font: 120% Georgia, "Times New Roman", Times, serif;
+  color: #778899;
+  background-color: transparent;
+  float: right;
+  width: 300px;
+  text-align: right;
+  margin-right: 2em;
+  margin-top: 0.5em;
+}
+#header .logo {
+  float: left;
+    width: 187px;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+#nav {
+  position: absolute;
+  top: 5em;
+  left: 1em;
+  width: 14em;
+}
+#content {
+  margin-left: 16em;
+  margin-right: 2em;
+}
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#nav li {
+  font-size: 80%;
+  border-bottom: 1px dotted #B2BCC6;
+  margin-bottom: 0.3em;
+}
+#nav a:link, #nav a:visited {
+  text-decoration: none;
+  color: #2A4F6F;
+  background-color: transparent;
+}
+#nav a:hover {
+  color: #778899;
+}
+#nav h2 {
+  font: 110% Georgia, "Times New Roman", Times, serif;
+  color: #2A4F6F;
+  background-color: transparent;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+h1 {
+  font: 150% Georgia, "Times New Roman", Times, serif;
+}
+#content p {
+  font-size: 80%;
+  line-height: 1.6em; 
+} 

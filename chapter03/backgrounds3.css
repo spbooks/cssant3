@@ -1,0 +1,59 @@
+body {
+	font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #D2D7E4;
+	color: #000000;
+	background-image: url(background-repeatx.jpg);
+	background-repeat: repeat-x;
+}
+#smallbox {
+	background-image: url(boxbg.gif);
+	background-repeat: repeat-x;
+	float: left;
+	margin-right: 20px;
+	width: 220px;
+	border: 1px solid #D2D7E4;
+}
+
+#smallbox h2 {
+	margin: 0;
+	padding: 0.2em;
+	background-image: url(boxheaderbg.jpg);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	background-color: red;
+	font-size: 140%;
+	font-weight: normal;
+}
+
+#content {
+	margin: 2em 4em 2em 4em;
+	background-color: #FFFFFF;
+	padding: 1em 1em 40px 1em;
+	background-image: url(tick.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+h1 {
+	background-image: url(dotty.gif);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	padding: 0 0 6px 0;
+	color: #41667F;
+	font-size: 160%;
+	font-weight: normal;
+	background-color: transparent;
+}
+
+a:link, a:visited {
+	color: #41667F;
+	background-color: transparent;
+	padding-right: 10px;
+}
+
+a:hover {
+	background-image: url(arrow.gif);
+	text-decoration: none;
+	background-position: center right;
+	background-repeat: no-repeat;
+}

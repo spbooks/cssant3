@@ -1,0 +1,71 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 1em;
+  font: 1em Arial, Helvetica, sans-serif;
+}
+
+ul#nav {
+  width: 360px;
+  height: 30px;
+  overflow:hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul#nav li {
+  float: left;
+}
+
+ul#nav li a span {
+  margin-left: -5000px;
+}
+
+ul#nav li a {
+  display: block;
+  background-image: url(reflectonav.gif);
+  background-repeat: no-repeat;
+  width: 75px;
+  overflow:hidden;
+  
+}
+
+ul#nav li.recipes a {
+  background-position: 0 0;
+}
+
+ul#nav li.recipes a:hover {
+  background-position: 0 -42px;
+}
+
+ul#nav li.contact a {
+  background-position: -75px 0;
+  width: 105px;
+}
+
+ul#nav li.contact a:hover {
+  background-position: -75px -42px;
+}
+
+ul#nav li.articles a {
+  background-position: -180px 0;
+  width: 85px;
+}
+
+ul#nav li.articles a:hover {
+  background-position: -180px -42px;
+}
+
+ul#nav li.buy a {
+  background-position: -265px 0;
+  width: 85px;
+}
+
+ul#nav li.buy a:hover {
+  background-position: -265px -42px;
+}
+
+
+

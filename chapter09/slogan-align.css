@@ -1,0 +1,29 @@
+body {
+  margin: 20px;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 2px solid #2A4F6F;
+}
+#header {
+  border: 2px solid red ;
+  /*border-top: 1px solid #778899;
+  border-bottom: 1px dotted #B2BCC6;
+  height:3em;*/
+}
+#header .slogan {
+  font: 120% Georgia, "Times New Roman", Times, serif;
+  color: #778899;
+  background-color: transparent;
+  width: 300px;
+  /*float: right;
+  margin-right: 2em;
+  margin-top: 0.5em;*/
+}
+#header .logo {
+  width: 187px;
+  /*float: left;
+  margin-left: 1.5em;
+  margin-top: 0.5em;*/
+}

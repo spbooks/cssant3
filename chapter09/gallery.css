@@ -1,0 +1,21 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+#albumlist {
+  list-style-type: none;
+}
+#albumlist li {
+  float: left;
+  width:240px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  font: bold 0.8em Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+#albumlist img {
+  display: block;
+  border: 1px solid #333300;
+}

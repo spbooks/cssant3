@@ -1,0 +1,16 @@
+body {
+	font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#album {
+	margin: 30px;
+	list-style:none;
+}
+
+#album li {
+	float:left;
+}
+
+#album img {
+	border: 1px solid #000000;
+	margin-right: 30px;
+}

@@ -1,0 +1,10 @@
+body {
+	font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 1.6em;
+  padding: 0.2em;
+}
+ul {
+	list-style-image: url(bullet.gif);
+}

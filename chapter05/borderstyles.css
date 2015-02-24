@@ -1,0 +1,7 @@
+.datatable {
+	border: 14px dotted #338BA6;
+	border-collapse: collapse;
+}
+.test {
+	border: 14px outset #338BA6;
+}

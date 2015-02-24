@@ -1,0 +1,19 @@
+#box1 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 400px;
+	height: 300px;
+	background-color: #B0C4DE;
+	border: 2px solid #34537D;
+	padding: 10px;
+}
+#box2 {
+	position: absolute;
+	bottom: 2em;
+	right: 2em;
+	width: 150px;
+	background-color: #FFFAFA;
+	border: 2px solid #CD5C5C;
+		padding: 10px;
+}

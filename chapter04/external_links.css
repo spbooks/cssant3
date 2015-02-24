@@ -1,0 +1,31 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 1em;
+  font: 1em Arial, Helvetica, sans-serif;
+}
+
+ul.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a[href ^="http:"] {
+  padding-left: 20px;
+  background-image: url(link_icon_external.gif);
+  background-repeat: no-repeat;
+}
+
+a[href ^="mailto:"] {
+  padding-left: 20px;
+  background-image: url(link_icon_email.gif);
+  background-repeat: no-repeat;
+}
+
+a[href $=".pdf"] {
+  padding-left: 20px;
+  background-image: url(link_icon_pdf.gif);
+  background-repeat: no-repeat;
+}

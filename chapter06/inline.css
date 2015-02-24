@@ -1,0 +1,14 @@
+form {
+	display: inline;
+}
+input.txt {
+	color: #00008B;
+	background-color: #E3F2F7;
+	border: 1px inset #00008B;
+	width: 200px;
+}
+input.btn {
+	color: #00008B;
+	background-color: #ADD8E6;
+	border: 1px outset #00008B;
+}

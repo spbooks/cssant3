@@ -1,0 +1,18 @@
+#box1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 100px;
+  background-color: #B0C4DE;
+  border: 2px solid #34537D;
+  padding: 10px;
+}
+#box2 {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  width: 100px;
+  background-color: #FFFAFA;
+  border: 2px solid #CD5C5C;
+  padding:  10px;
+}

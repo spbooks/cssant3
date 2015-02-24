@@ -1,0 +1,15 @@
+h1 {
+  font: 1.6em Verdana, Geneva, Arial, Helvetica, sans-serif;
+  padding: 0.2em;
+}
+p {
+  font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+  line-height: 2.0;
+}
+hr {
+  border: none;
+  background-color: #256579;
+  color: #256579;
+  height: 2px;
+  width: 80%;
+}

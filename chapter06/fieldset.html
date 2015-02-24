@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<title>Field sets</title>
+<meta http-equiv="content-type"
+    content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="fieldset.css" />
+</head>
+<body>
+<h1>User Registration Form</h1>
+<form method="post" action="fieldset.html">
+  <fieldset>
+    <legend>Personal Information</legend>
+    <div>
+      <label for="fullname">Name:</label>
+      <input type="text" name="fullname" id="fullname" class="txt" />
+    </div>
+    <div>
+      <label for="email">Email Address:</label>
+      <input type="text" name="email" id="email" class="txt" />
+    </div>
+    <div>
+      <label for="password1">Password:</label>
+      <input type="password" name="password1" id="password1" class="txt" />
+    </div>
+    <div>
+      <label for="password2">Confirm Password:</label>
+      <input type="password" name="password2" id="password2" class="txt" />
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Address Details</legend>
+    <div>
+      <label for="address1">Address line one:</label>
+      <input type="text" name="address1" id="address1" class="txt" />
+    </div>
+    <div>
+      <label for="address2">Address line two:</label>
+      <input type="text" name="address2" id="address2" class="txt" />
+    </div>
+    <div>
+      <label for="city">Town / City:</label>
+      <input type="text" name="city" id="city" class="txt" />
+    </div>
+    <div>
+      <label for="zip">Zip / Post code:</label>
+      <input type="text" name="zip" id="zip" class="txt" />
+    </div>
+  </fieldset>
+  <div>
+    <input type="submit" name="btnSubmit" id="btnSubmit" value="Sign Up!" class="btn" />
+  </div>
+</form>
+</body>
+</html>

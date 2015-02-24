@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<title>Table-free form layout</title>
+<meta http-equiv="content-type"
+    content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="tablefree.css" />
+</head>
+<body>
+<h1>User Registration Form</h1>
+<form method="post" action="tablefree.html">
+  <div>
+    <label for="fullname">Name:</label>
+    <input type="text" name="fullname" id="fullname" class="txt" />
+  </div>
+  <div>
+    <label for="email">Email Address:</label>
+    <input type="text" name="email" id="email" class="txt" />
+  </div>
+  <div>
+    <label for="password1">Password:</label>
+    <input type="password" name="password1" id="password1" class="txt" />
+  </div>
+  <div>
+    <label for="password2">Confirm Password:</label>
+    <input type="password" name="password2" id="password2" class="txt" />
+  </div>
+  <div>
+    <label for="level">Membership Level:</label>
+    <select name="level">
+      <option value="silver">silver</option>
+      <option value="gold">gold</option>
+    </select>
+  </div>
+  <div>
+    <input type="submit" name="btnSubmit" id="btnSubmit" value="Sign Up!" class="btn" />
+  </div>
+</form>
+</body>
+</html>

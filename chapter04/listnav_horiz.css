@@ -1,0 +1,35 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 1em;
+  font: 1em Arial, Helvetica, sans-serif;
+}
+
+#navigation {
+  font-size: 90%;
+}
+
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
+
+#navigation li {
+  display: inline;
+}
+
+#navigation a:link, #navigation a:visited {
+  padding: 0.4em 1em 0.4em 1em;
+  color: #FFFFFF;
+  background-color: #B51032;
+  text-decoration: none;
+  border: 1px solid #711515;
+}
+
+#navigation a:hover {
+  color: #FFFFFF;
+  background-color: #711515;
+}

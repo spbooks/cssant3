@@ -1,0 +1,16 @@
+body {
+  font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#wrapper {
+	margin-top: 20px;
+}
+
+img.doubleborder {
+	border: 5px solid #8E787B;
+	padding: 20px;
+	background-image: url(doubleborder-bg.gif);
+}
+
+

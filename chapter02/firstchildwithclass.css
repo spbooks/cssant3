@@ -1,0 +1,10 @@
+body {
+  font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+ul {
+  color:black;
+}
+
+li.unusual {
+  color: red;
+}

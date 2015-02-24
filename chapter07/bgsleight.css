@@ -1,0 +1,47 @@
+html {
+	background-image: url(background-repeatx.jpg);
+	background-repeat: repeat-x;
+	background-color: #d2d7e4;
+    
+}
+
+
+body {
+	font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin: 0;
+	padding: 46px 0 0 0;
+}
+#smallbox {
+	background-image: url(boxbg.gif);
+	background-repeat: repeat-x;
+    background-color: #FFFFFF;
+	float: left;
+	margin-right: 20px;
+	width: 220px;
+	border:1px solid #d2d7e4;
+}
+#content {
+	margin: 0 4em 2em 4em;
+	background-image: url(opaque.png);
+	padding: 1em 50px 40px 1em;
+}
+h1 {
+	padding: 0 0 6px 0;
+	color: #41667f;
+	font-size: 160%;
+	font-weight: normal;
+	background-color: transparent;
+}
+
+a:link, a:visited {
+	color: #41667f;
+	background-color: transparent;
+	padding-right: 10px;
+}
+a:hover {
+	background-image: url(arrow.gif);
+	text-decoration: none;
+    background-position: center right;
+    background-repeat: no-repeat;
+}

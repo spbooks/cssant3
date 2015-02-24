@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+}
+#wrapper {
+  position: relative;
+  width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1em;
+}
+#header {
+  background-image: url(kitchen.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  position: relative;
+}
+#header h1 {
+  margin: 0;
+  padding: 0.3em 10px 0.3em 0;
+  text-align: right;
+  width: 750px;
+  font-weight: normal;
+  color: #FFFFFF;
+  font-size: 190%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(black80percent.png);
+}
+#content {
+  margin-left: 250px;
+  width: 500px;
+  padding: 0 10px 0 0;
+}
+#content h2 {
+  font-size: 120%;
+  color: #3333FF;
+  background-color: transparent;
+  margin: 0;
+  padding: 1.4em 0 0 0;
+}
+#content p {
+  font-size: 80%;
+  line-height: 1.6;
+}
+#nav {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 230px;
+}
+#nav ul {
+  list-style: none;
+  margin: 3em 0 0 0;
+  padding: 0;
+  border: none;
+}
+#nav li {
+  font-size: 85%;
+}
+#nav a:link, #nav a:visited {
+  color: #555555;
+  background-color: transparent;
+  display: block;
+  padding: 1em 0 0 10px;
+  text-decoration: none;
+  min-height: 40px;
+}
+#nav a:hover, #nav li.cur a:link, #nav li.cur a:visited {
+  color: #FFFFFF;
+  background-image: url(arrow.gif);
+  background-repeat: no-repeat;
+}
+
+

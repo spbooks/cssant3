@@ -1,0 +1,30 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+#navigation {
+  display: none;
+}
+#content {
+  margin-left: 20pt;
+  margin-right: 30pt;
+}
+#banner {
+  display: none;
+}
+#content p, #content li {
+  font: 12pt/20pt "Times New Roman", Times, serif;
+}
+#content p {
+  margin-left: 20pt;
+}
+#content h1, #content h2 {
+  font: 16pt Georgia, "Times New Roman", Times, serif;
+  color: #4b4b4b;
+  background-color: transparent;
+}
+#content h2 {
+  font: 14pt Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 2pt;
+  border-bottom: 1pt dotted #CCCCCC;
+}

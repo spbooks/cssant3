@@ -1,0 +1,23 @@
+#navigation {
+  width: 180px;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+#navigation td {
+  border-bottom: 2px solid #460016;
+  background-color: #FFDFEA;
+  color: #460016;
+}
+#navigation a:link, #navigation a:visited {
+  display:block;
+  margin: 0.4em 0 0.4em 1em;
+  color: #460016;
+  background-color: transparent;
+  font-size: 90%;
+  text-decoration: none;
+  font-weight: bold;
+}
+* html #navigation a {
+  width: 100%;
+}

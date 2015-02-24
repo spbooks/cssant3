@@ -1,0 +1,12 @@
+body {
+  font: 1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font: 1.6em Verdana, Geneva, Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+h1+p {
+  margin-top: 0;
+}

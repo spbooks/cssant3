@@ -1,0 +1,53 @@
+body {
+  font: .8em/1.8em verdana, arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0 10% 0 10%;
+}
+
+#header {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #8DA5FF;
+  margin-bottom: 2em;
+}
+
+#header ul {
+  margin: 0;
+  padding: 2em 0 0 0;
+  list-style: none;
+}
+
+#header li {
+  float: left;
+  background-image: url("images/tab_left.gif");
+  background-repeat: no-repeat;
+  margin: 0 1px 0 0;
+  padding: 0 0 0 8px;
+}
+
+#header a {
+  float: left;
+  display: block;
+  background-image: url("images/tab_right.gif");
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 0.2em 10px 0.2em 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333366;
+}
+#recipes #header li.recipes,
+#contact #header li.contact,
+#articles #header li.articles,
+#buy #header li.buy {
+    background-image: url("images/tab_active_left.gif");
+}
+#recipes #header li.recipes a,
+#contact #header li.contact a,
+#articles #header li.articles a,
+#buy #header li.buy a {
+  background-image: url("images/tab_active_right.gif");
+  background-color: transparent;
+  color:#FFFFFF;
+}

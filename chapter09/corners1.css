@@ -1,0 +1,8 @@
+.curvebox {
+  width: 250px;
+  padding: 1em;
+  background-color: #B0C4DE;
+  color: #33527B;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}

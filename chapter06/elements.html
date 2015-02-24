@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+  <title>CSS styled form elements</title>
+  <meta http-equiv="content-type"
+    content="text/html; charset=utf-8" />
+  <!-- <link rel="stylesheet" type="text/css" href="elements.css" /> -->
+</head>
+<body>
+  <form method="post" action="example1.html" id="form1">
+    <div><label for="name">What is your name?</label><br/>
+    <input type="text" name="name" id="name" /></div>
+    <div><label for="color">Select your favorite color:</label>
+      <select name="color" id="color">
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+      </select>
+    </div>
+    <div><label for="sex">Are you male or female?</label><br/>
+      <input type="radio" name="sex" id="male" 
+          value="male" />Male<br/>
+      <input type="radio" name="sex" id="female" 
+          value="female" />Female
+    </div>
+    <div>
+      <label for="comments">Comments:</label><br/>
+      <textarea name="comments" id="comments" cols="30" 
+          rows="4"></textarea>
+    </div>
+    <div>
+      <input type="submit" name="btnSubmit" id="btnSubmit" 
+          value="Submit" />
+    </div>
+  </form>
+</body>
+</html>
